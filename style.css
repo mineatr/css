@@ -1,0 +1,122 @@
+body{
+    margin: 0;
+    background-color: lightgoldenrodyellow;
+}
+
+/*Container*/
+
+.container{
+    max-width: 1150px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container_info{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+}
+
+/*Header*/
+
+.header{
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background-color: blue;
+}
+
+.header_container{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+    
+.header_inner{
+    width: 90%;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_logo{
+    color:#fff;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/*Nav*/
+.nav{
+    font-size: 17px;
+}
+
+.nav_link{
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 5px;
+
+    color:#fff;
+    text-decoration: none;
+
+    transition: color .2s linear;
+}
+
+.nav_link:hover{
+    color:blue;
+}
+
+/* Personal info*/
+
+.personal_info{
+    margin-left: 10px;
+    margin-right: 50px;
+    max-width: 300px;
+    max-height: 600px;
+    height: min-content;
+    background-color: blanchedalmond;
+    padding: 10px;
+}
+
+.personal_img{
+    width: 290px;
+    height: auto;
+}
+
+.contact_info_content{
+    color: black;
+    font-size: 14px;
+}
+
+/*Main info*/
+
+.main_info{
+    background-color: blueviolet;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.about_me{
+    background-color: brown;
+    margin: 0;
+}
+
+.languges{
+    background-color: brown;
+    margin: 0;
+}
+
+/**/
+.in{
+    background-color: brown;
+    border-radius: 0;
+    margin-top: 0px;
+}
+
+p, h1, h2, h3, h4, h5, h6{
+    margin: 0;
+}
