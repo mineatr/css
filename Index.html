@@ -6,119 +6,139 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link type="text/css" rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
 </head>
-<body>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header_inner">
+          <div class="header_logo">Резюме</div>
+          <nav class="nav">
+            <a class="nav_link" href="#Main_information">Контактная информация</a>
+            <a class="nav_link" href="#Aducation">Образование</a>
+            <a class="nav_link" href="#Languges">Знание языков</a>
+            <a class="nav_link" href="#Additional_information">Навыки в программировании</a>
+            <a class="nav_link" href="File2.html">Next page</a>
+          </nav>
+        </div>
+      </div>
+    </header>
     <div class="container">
-
-      <header class="header">
-          <div class="header_container">
-              <div class="header_inner">
-                <div class="header_logo">Резюме</div>
-                <nav class="nav">
-                  <a class="nav_link" href="#Main_information">Контактная информация</a>
-                  <a class="nav_link" href="#Aducation">Образование</a>
-                  <a class="nav_link" href="#Languges">Знание языков</a>
-                  <a class="nav_link" href="#Additional_information">Навыки в программировании</a>
-                  <a class="nav_link" href="File2.html">Next page</a>
-                </nav>
-              </div>
-          </div>
-      </header>
-
       <div class="container_info">
-
-        <div class="personal_info">
+        <section class="main_info">
+          <div class="about-me">
+              <h3>О мне</h3>
+              <p>Хомячки да суслики играли на флейте.
+                I'm Creative Director and UI/UX Designer from Sydney, Australia, working in web development and print media.
+                I enjoy turning complex problems into simple, beautiful and intuitive designs.
+                My job is to build your website so that it is functional and user-friendly but at the same time attractive. 
+                Moreover, I add personal touch to your product and make sure that is eye-catching and easy to use.
+                My aim is to bring across your message and identity in the most creative way.
+                I created web design for many famous brand companies.</p>
+          </div>
+          <section class="specialty_info">
+            <div class="rezume-block-column">
+              <div class="rezume-block-row">
+                <div class="rezume_block">
+                  <h3>Образование</h3>
+                  <ul>
+                    <li>Общее образование: Гимназия №6 г. Гродно</li>
+                    <li>Среднее специальное образование: Гродненский государственный политехнический колледж</li>
+                  </ul>
+                </div>
+                <div class="rezume_block">
+                  <h3>Опыт информации</h3>
+                  <p>None</p>
+                </div>
+              </div>
+              <div class="rezume-block-row">
+                <div class="rezume_block">
+                  <h3>Навыки в владения</h3>
+                  <div class="progress-block">
+                    <div class="progress">
+                      <div class="progress-bar" style="width: 100%">
+                          <div class="progress-text">
+                            <span>Python</span>
+                            <span>100%</span>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="progress">
+                      <div class="progress-bar" style="width: 100%">
+                          <div class="progress-text">
+                            <span>C#</span>
+                            <span>100%</span>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="progress">
+                      <div class="progress-bar" style="width: 100%">
+                          <div class="progress-text">
+                            <span>PascalNet</span>
+                            <span>100%</span>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="progress">
+                      <div class="progress-bar" style="width: 100%">
+                          <div class="progress-text">
+                            <span>HTML</span>
+                            <span>100%</span>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="progress">
+                      <div class="progress-bar" style="width: 100%">
+                          <div class="progress-text">
+                            <span>CSS</span>
+                            <span>100%</span>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="progress">
+                      <div class="progress-bar" style="width: 100%">
+                          <div class="progress-text">
+                            <span>HTML</span>
+                            <span>100%</span>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="Additional_information">
+              <a id="Additional_information"></a>
+              <h4>Дополнительная информация</h4>
+          </section>
+        </section>
+        <section class="personal_info">
           <div class="personal_img_container">
-            <img class="personal_img" src="bastion_overwatch-HD.jpg">
+            <img class="personal_img" src="cat.jpg" alt="face">
+            <h1>Рябцев<br>
+              Сергей</h1>
           </div>
           <div class="contact_info">
-            <p class="contact_info_content">Имя: Сергей</p>
-            <p class="contact_info_content">Фамилия: Рябцев</p>
-            <p class="contact_info_content">Отчество: Витальевич</p>
-            <p class="contact_info_content">Тел. номер: +379298692969</p>
-            <p class="contact_info_content">Место проживания (на 12.02.2021): г. Гродно, ул. Малыщинская, д. 27А, кв. 26</p>
+            <ul class="contact_block">
+              <li class="contact_block_item">
+                  <img class="icon" src="media/smartphone.svg" alt="tel number">
+                  <a href="tel:+379298692969">+379298692969</a>     
+              </li>
+              <li class="contact_block_item">
+                  <img class="icon" src="media/calendar.svg" alt="date birthday">
+                  <span>05 сентября 2002</span>
+              </li>
+              <li class="contact_block_item">
+                  <img class="icon" src="media/mail.svg" alt="email">
+                  <a href="mailto:mineatr@mail.ru">mineatr@mail.ru</a>
+              </li>
+            </ul>
           </div>
-        </div>
-
-        <div class="main_info">
-          
-          <div class="about_me">
-            <h3>О мне</h3>
-            <p>Хомячки да суслики играли на флейте</p>
-          </div>
-      
-          <div class="languges">
-              <h3>Знание языков</h3>
-              <p>Русский (разговорный), беларусский (слабый разговорный), английский (незначительное понимание разговорного, затруднительно разговаривать)</p>
-          </div>
-        
-          <div class="Additional_information">
-              <a id="Additional_information"></a>
-              <h3>Навыки в программировании</h3>
-              <h4>Языки программирования</h4>
-              <ul>
-                  <li>Python (IDE PyCharm)</li>
-                  <li>C# (DE Visual Studio)</li>
-                  <li>PascalNet (IDE Delphi)</li>
-              </ul>
-          </div>
-          
-          <div class="form-wrap">
-            <div class="profile">
-              <h1>Регистрация</h1>
-            </div>
-            <form method="post">
-              <div>
-                <label for="name">Имя</label>
-                <input type="text" name="name" required>
-              </div>
-              <div class="radio">
-                <span>Пол</span>
-                <label>
-                  <input type="radio" name="sex" value="мужской">мужской
-                  <div class="radio-control male"></div>
-                </label>
-                <label>
-                  <input type="radio" name="sex" value="женский">женский
-                  <div class="radio-control female"></div>
-                </label>
-              </div>
-              <div>
-                <label for="email">E-mail</label>
-                <input type="email" name="email" required>
-              </div>
-              <div>
-                <label for="country">Страна</label>
-                <select name="country">
-                  <option>Выберите страну проживания</option>
-                  <option value="Россия">Россия</option> 
-                  <option value="Украина">Украина</option> 
-                  <option value="Беларусь">Беларусь</option> 
-                </select> 
-                <div class="select-arrow"></div> 
-              </div> 
-              <button>Отправить</button> 
-            </form> 
-          </div>
-    
-          <table border="1">
-              <tr>
-                  <th>Head1</th>
-                  <th>Head2</th>
-                  <th>Head3</th>
-              </tr>
-              <tr><td>Привет</td><td>Trojan</td><td>Hamster</td></tr>
-              <tr><td>Milk</td><td>Hamster</td><td>Hello</td></tr>
-          </table>
-          <video width="400" height="300" controls="controls">
-              <source src="video.mp4">
-          </video>
-        </div>
-
+        </section>
       </div>
-      
-      
     </div>
-
   </body>
 </html>
